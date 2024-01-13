@@ -30,6 +30,7 @@ export class MainPageComponent {
     this.personajes.push(this.nuevo);
     this.nuevo = {
       nombre: '',
+      poder:0
     };
   }
 
